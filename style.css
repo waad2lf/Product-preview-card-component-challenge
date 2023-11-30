@@ -1,0 +1,88 @@
+
+body {
+      background-color: rgb(242, 235, 227);
+      font-family: 'Fraunces', serif;
+}
+
+.text {
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.head {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 18px;
+    font-size: 14px;
+    opacity: 0.4;
+}
+
+h1 {
+    font-size: 25px;
+    margin-top: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+.detail {
+    font-size: 13px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 13px;
+    opacity: 0.4;
+}
+
+.NO1 {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    color: darkcyan;
+}
+
+.NO2 {
+    font-size: 11px;
+    opacity: 0.4;
+}
+
+.button {
+    font-size: 12px;
+    margin-left: 22px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(3, 132, 102);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    transition: all 0.8s;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.button:active {
+    color: black;
+}
+
+.card {
+    background-color: white;
+    background-image: url(./images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    width: 400px;
+    height: 340px;
+    margin: 150px auto;
+    border-radius: 10px;
+}
+
+.attribution {
+      font-size: 11px;
+      text-align: center;
+}
+
+.attribution a {
+      color: rgb(62, 82, 163);
+} 
